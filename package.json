@@ -1,9 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/nikitha-goswami/nikitha-goswami.github.io-",
+  "homepage": "https://github.com/nikitha-goswami/nikitha-goswami.github.io",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",
+    
     "@chakra-ui/react": "^2.8.0",
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
@@ -27,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    
+
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
