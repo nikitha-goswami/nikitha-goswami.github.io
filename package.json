@@ -1,10 +1,14 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/nikitha-goswami/nikitha-goswami.github.io",
+  "homepage": "https://nikitha-goswami.github.io/",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/nikitha-goswami/nikitha-goswami.github.io.git"
+},
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",
-    
+
     "@chakra-ui/react": "^2.8.0",
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",

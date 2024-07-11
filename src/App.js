@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Contactus from './Components/Contactus';
+import Footer from './Components/Footer';
+import GithubCal from './Components/GithubCal';
+import Simple from './Components/Navbar';
+import Profile from './Components/Profile';
+import Resume from './Components/Resume';
+import Skills from './Components/Skills';
+import ProjectTimeline from './Components/ProjectTimeline';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Simple />
+      <Profile />
+      <Skills />
+      <ProjectTimeline />
+      <GithubCal />
+      <Resume />
+      <Contactus />
+      <Footer />
+
+    </>
   );
 }
 
