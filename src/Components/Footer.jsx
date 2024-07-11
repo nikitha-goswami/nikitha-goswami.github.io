@@ -14,7 +14,7 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col md="4" className="footer-copywright">
-                    <h3>Designed and Developed by 𝐿𝑜𝓀𝑒𝓈𝒽 𝒞𝒽𝑜𝓊𝒹𝒽𝒶𝓇𝓎</h3>
+                    <h3>Designed and Developed by 𝓝𝓲𝓴𝓲𝓽𝓱𝓪 𝓖𝓸𝓼𝔀𝓪𝓶𝓲</h3>
                 </Col>
                 <Col md="4" className="footer-copywright">
                     <h3>𝘾𝙤𝙥𝙮𝙧𝙞𝙜𝙝𝙩 &copy; {year} 𝓁𝒞</h3>
@@ -23,7 +23,7 @@ function Footer() {
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a
-                                href="https://github.com/lokeshchoudharyprogrammer"
+                                href="https://github.com/nikitha-goswami"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -31,19 +31,10 @@ function Footer() {
                                 <AiFillGithub />
                             </a>
                         </li>
+                        
                         <li className="social-icons">
                             <a
-                                href="https://twitter.com/lokesh042005"
-                                style={{ color: "white" }}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <AiOutlineTwitter />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://www.linkedin.com/in/lokeshchoudharyprogrammer/"
+                                href="https://www.linkedin.com/in/nikitha-goswami-011ab92ba/"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -51,16 +42,7 @@ function Footer() {
                                 <FaLinkedinIn />
                             </a>
                         </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://www.instagram.com/lokeshchoudharyprogrammer"
-                                style={{ color: "white" }}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <AiFillInstagram />
-                            </a>
-                        </li>
+                       
                     </ul>
                 </Col>
             </Row>

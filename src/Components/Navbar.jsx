@@ -55,7 +55,7 @@ export default function Simple() {
                     onClick={isOpen ? onClose : onOpen}
                 />
                 <HStack spacing={8} alignItems={'center'}>
-                    <Box> 𝐿𝒞</Box>
+                    <Box> 𝓝𝓒</Box>
                     <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
 
                         <NavLink href={'#about '}>Home</NavLink>
@@ -78,7 +78,7 @@ export default function Simple() {
                             <Avatar
                                 size={'sm'}
                                 src={
-                                    'https://avatars.githubusercontent.com/u/112642820?v=4'
+                                    'https://media.licdn.com/dms/image/D4D03AQFoBVQ3mRhcbw/profile-displayphoto-shrink_400_400/0/1710566099145?e=1726099200&v=beta&t=HK6iMwsARPMy11qhWmGRd-gbYJytVlg5n61JPWG9ilg'
                                 }
                             />
                         </MenuButton>

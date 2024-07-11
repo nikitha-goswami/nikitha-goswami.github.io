@@ -50,7 +50,7 @@ const Contactus = () => {
                     <Tooltip label="GitHub" hasArrow placement="top">
                         <IconButton
                             as={Link}
-                            href="https://github.com/lokeshchoudharyprogrammer"
+                            href="https://github.com/nikitha-goswami"
                             id="contact-github"
                             style={linkStyles}
                             icon={<FaGithub style={iconStyles} />}
@@ -59,15 +59,15 @@ const Contactus = () => {
                         />
                     </Tooltip>
                     <Spacer />
-                    <Link href="https://github.com/lokeshchoudharyprogrammer" target="_blank" id="contact-github" style={linkStyles}>
-                        Lokesh Choudhary
+                    <Link href="https://github.com/nikitha-goswami" target="_blank" id="contact-github" style={linkStyles}>
+                    𝓝𝓲𝓴𝓲𝓽𝓱𝓪 𝓖𝓸𝓼𝔀𝓪𝓶𝓲
                     </Link>
                 </Flex>
                 <Flex alignItems="center" mt={3}>
                     <Tooltip label="LinkedIn" hasArrow placement="top">
                         <IconButton
                             as={Link}
-                            href="https://www.linkedin.com/in/lokeshchoudharyprogrammer/"
+                            href="https://www.linkedin.com/in/nikitha-goswami-011ab92ba/"
                             id="contact-linkedin"
                             style={linkStyles}
                             icon={<FaLinkedin style={iconStyles} />}
@@ -76,15 +76,15 @@ const Contactus = () => {
                         />
                     </Tooltip>
                     <Spacer />
-                    <Link href="https://www.linkedin.com/in/lokeshchoudharyprogrammer/" target="_blank" id="contact-linkedin" style={linkStyles}>
-                        Lokesh Choudhary
+                    <Link href="https://www.linkedin.com/in/nikitha-goswami-011ab92ba/" target="_blank" id="contact-linkedin" style={linkStyles}>
+                    𝓝𝓲𝓴𝓲𝓽𝓱𝓪 𝓖𝓸𝓼𝔀𝓪𝓶𝓲
                     </Link>
                 </Flex>
                 <Flex alignItems="center" mt={3}>
                     <Tooltip label="Phone" hasArrow placement="top">
                         <IconButton
                             as={Link}
-                            href="tel:+916377300329"
+                            href="tel:+9178781147919"
                             id="contact-phone"
                             style={linkStyles}
                             icon={<FiPhone style={iconStyles} />}
@@ -92,15 +92,16 @@ const Contactus = () => {
                         />
                     </Tooltip>
                     <Spacer />
-                    <Link href="tel:+916377300329" id="contact-phone" style={linkStyles}>
-                        +916377300329
+                    <Link href="tel:+9178781147919" id="contact-phone" style={linkStyles}>
+                    +917878114791
+
                     </Link>
                 </Flex>
                 <Flex alignItems="center" mt={3}>
                     <Tooltip label="Email" hasArrow placement="top">
                         <IconButton
                             as={Link}
-                            href="mailto:lokeshchoudhary2026@gmail.com"
+                            href="mailto: goswaminikitha57@gmail.com"
                             id="contact-email"
                             style={linkStyles}
                             icon={<FiMail style={iconStyles} />}
@@ -108,8 +109,9 @@ const Contactus = () => {
                         />
                     </Tooltip>
                     <Spacer />
-                    <Link href="mailto:lokeshchoudhary2026@gmail.com" id="contact-email" style={linkStyles}>
-                        lokeshchoudhary2026@gmail.com
+                    <Link href="mailto: goswaminikitha57@gmail.com" id="contact-email" style={linkStyles}>
+                    goswaminikitha57@gmail.com
+
                     </Link>
                 </Flex>
 

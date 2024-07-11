@@ -3,13 +3,13 @@ import { Container, Box, SimpleGrid } from "@chakra-ui/react";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import React from "react";
-import pdf from "../resume/lokesh-choudhary-resume.pdf";
+import pdf from "../resume/Nikitha-Goswami-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { saveAs } from 'file-saver';
 const Profile = () => {
     const handleDownloadPDF = () => {
         console.log("Yes")
-        saveAs(pdf, 'lokesh-choudhary-resume.pdf');
+        saveAs(pdf, 'Nikitha-Goswami-Resume.pdf');
         const newWindow = window.open();
         newWindow.location.href = pdf;
     };
@@ -30,11 +30,10 @@ const Profile = () => {
 
                         <h1 className="heading-name" style={{ color: "black" }}>
                             I'M
-                            <strong className="main-name"> 𝐿𝑜𝓀𝑒𝓈𝒽 𝒞𝒽𝑜𝓊𝒹𝒽𝒶𝓇𝓎</strong>
+                            <strong className="main-name">𝓝𝓲𝓴𝓲𝓽𝓱𝓪 𝓖𝓸𝓼𝔀𝓪𝓶𝓲</strong>
                         </h1>
                         <h1 id ='user-detail-intro' style={{ color: "black", paddingLeft: "30px", paddingTop: '15px', fontWeight: '600' }}>
-                        Experienced MERN developer and AI enthusiast with 1200+ coding hours, dedicated to pushing technological boundaries, building dynamic web applications, and delivering exceptional results in web development and AI integration.
-                        </h1>
+                        Experienced MERN developer and passionate AI enthusiast, dedicated to pushing technological boundaries in dynamic web applications and AI integration.  </h1>
 
                         <Row style={{ justifyContent: "center", position: "relative", display: "flex", marginTop: "20px" }}>
                             <a id='resume-link-2' href={pdf} target="_blank" rel="noopener noreferrer" download>
@@ -60,7 +59,7 @@ const Profile = () => {
 
                     </Col>
                     <Box p={4} className="splash-image pulse-ring" >
-                        <img class="home-img" src="https://avatars.githubusercontent.com/u/112642820?v=4" alt="Lokesh Choudhary's Avatar" style={{ borderRadius: "23px" }} />
+                        <img class="home-img" src="https://media.licdn.com/dms/image/D4D03AQFoBVQ3mRhcbw/profile-displayphoto-shrink_400_400/0/1710566099145?e=1726099200&v=beta&t=HK6iMwsARPMy11qhWmGRd-gbYJytVlg5n61JPWG9ilg" alt="nikitha-goswami's Avatar" style={{ borderRadius: "23px" }} />
                     </Box>
 
 

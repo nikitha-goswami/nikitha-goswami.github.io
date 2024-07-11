@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import pdf from "../resume/lokesh-choudhary-resume.pdf";
+import pdf from "../resume/Nikitha-Goswami-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { saveAs } from 'file-saver';
 
@@ -8,7 +8,7 @@ function Resume() {
 
     const handleDownloadPDF = () => {
         console.log("Yes")
-        saveAs(pdf, 'lokesh-choudhary-resume.pdf');
+        saveAs(pdf, 'Nikitha-Goswami-Resume.pdf');
         const newWindow = window.open();
         newWindow.location.href = pdf;
     };
