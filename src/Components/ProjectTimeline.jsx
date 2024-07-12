@@ -184,13 +184,13 @@ function ProjectTimeline() {
                         }}
                     >
                         <button style={btn} class="project-github-link">
-                            <a target="_blank" href="https://github.com/lokeshchoudharyprogrammer/AI-Era">
+                            <a target="_blank" href="https://github.com/nikitha-goswami/Netflix-Clone">
 
                                 Github
                             </a>
                         </button>
                         <button style={btn} class="project-deployed-link">
-                            <a target="_blank" href="https://ai-era.vercel.app/">
+                            <a target="_blank" href="https://netflix-clone-gamma-puce-11.vercel.app/">
 
                                 Demo
                             </a>
