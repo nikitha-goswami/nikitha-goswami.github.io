@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1bece318.css",
-    "main.js": "/static/js/main.eab5b355.js",
+    "main.js": "/static/js/main.b359848b.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/Nikitha-Goswami-Resume.pdf": "/static/media/Nikitha-Goswami-Resume.863ef38250eaa2fd7408.pdf",
     "static/media/poppins-latin-400-italic.woff": "/static/media/poppins-latin-400-italic.32d83fc8640f458da164.woff",
@@ -14,11 +14,11 @@
     "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
     "index.html": "/index.html",
     "main.1bece318.css.map": "/static/css/main.1bece318.css.map",
-    "main.eab5b355.js.map": "/static/js/main.eab5b355.js.map",
+    "main.b359848b.js.map": "/static/js/main.b359848b.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bece318.css",
-    "static/js/main.eab5b355.js"
+    "static/js/main.b359848b.js"
   ]
 }
